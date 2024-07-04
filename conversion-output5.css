@@ -1,0 +1,145 @@
+.btt-services {
+  margin: 0;
+  width: 49.188rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 6.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.btt-services-wrapper {
+  width: 69.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 3rem;
+  color: var(--color-gray-400);
+  font-family: var(--font-exo);
+}
+.bittorrent-speed,
+.get-faster-download {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bittorrent-speed {
+  line-height: 4rem;
+  white-space: pre-wrap;
+}
+.get-faster-download {
+  align-self: stretch;
+  line-height: 1.875rem;
+}
+.with-bittorrent-speed {
+  width: 30.938rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 1.625rem;
+  font-family: var(--font-inter);
+  display: inline-block;
+  max-width: 100%;
+}
+.description1 {
+  width: 31.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  min-width: 31.75rem;
+  max-width: 100%;
+}
+.pic-1-icon {
+  height: 19.438rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 23.563rem;
+}
+.description-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-4xl);
+}
+.bittorrent-speed-parent,
+.conversion-output9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bittorrent-speed-parent {
+  width: 69.5rem;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: 2.25rem;
+  color: var(--color-gray-400);
+  font-family: var(--font-epilogue);
+}
+.conversion-output9 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: center;
+  padding: 4.75rem var(--padding-xl) var(--padding-mini) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .btt-services {
+    font-size: var(--font-size-19xl);
+    line-height: 5.375rem;
+  }
+  .bittorrent-speed {
+    font-size: var(--font-size-10xl);
+    line-height: 3.188rem;
+  }
+  .description1 {
+    flex: 1;
+  }
+  .description-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .description1,
+  .pic-1-icon {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .btt-services {
+    font-size: var(--font-size-10xl);
+    line-height: 4.063rem;
+  }
+  .bittorrent-speed {
+    font-size: var(--font-size-3xl);
+    line-height: 2.375rem;
+  }
+  .get-faster-download {
+    font-size: var(--font-size-lg);
+    line-height: 1.5rem;
+  }
+}
